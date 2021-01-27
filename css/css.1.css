@@ -302,8 +302,10 @@ header label:hover {
 #boton-ingreso{
     padding-top: 10px;
     text-align: flex;
+    margin: auto;
 }
 .boton-ingreso{
+    margin: auto;
     display: flex;
     position: absolute;
     padding: 10px;

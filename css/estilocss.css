@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2? family = Roboto: wght @ 300; 400; 700 & display = swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    font-size: 1.2rem;
+    line-height: 1.6em;
+    margin: 0;
+}
+.cabecera{
+    background: #333;
+    color: goldenrod;
+    padding: 2em 0;
+}
+
+.cabecera a{
+    color: #eac102;
+    text-decoration: none;
+}
+.contenedor-logo-contenedor{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navegador-menu ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+    .navegador-menu ul li{
+    display: inline-block;
+}
+.navegador-menu ul li a {
+        display: block;
+         padding: 0.5rem 1rem;
+         transition: all 0.4s linear;
+         border-radius: 10px;
+
+}
+.navegador-menu ul li a:hover {
+background: #eac102;
+}
+.logo{
+    letter-spacing: 15px;
+    font-size: 1.4em;
+}
+.logotipo{
+    border-radius: 100%;
+    border: solid #eac102;
+}
+
+
+/*estilo del footer*/
+
+footer{
+    width: 100%;
+    background: black;
+    color: white;
+}

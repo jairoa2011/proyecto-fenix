@@ -247,20 +247,7 @@ header label:hover {
 }
 
 /*buscador de la pagina*/
-.buscar{
-    display: flex;
-    position: absolute;
-    padding: 10px;
-    justify-content: center;
-    align-items: center;
-    left: 32%;
-    top: 10%;
-    background:  #4E5755;
-    height: 80px;
-    border-radius: 50px;
 
-
-}
 /*.boton-busqueda{
     border: none;
     background: none;
